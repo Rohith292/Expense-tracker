@@ -80,6 +80,6 @@ exports.getUserInfo=async(req,res)=>{
         }
         res.status(200).json(user);
     }catch(err){
-        res.status(500).json({message:"error in finding the user credentials", error:error.message});
+        res.status(500).json({message:"error in finding the user credentials", error:err.message});
     }
 };
