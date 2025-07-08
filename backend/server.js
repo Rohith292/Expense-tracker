@@ -13,7 +13,7 @@ const app=express();
 
 app.use(
     cors({
-        origin:process.env.CLIENT_URL,
+        origin:process.env.CLIENT_URL||"https://expense-tracker-frontend-fawn.vercel.app",
         credentials:true,//added comments
         methods:["GET","POST","PUT","DELETE"],
         allowedHeaders:["Content-Type","Authorization"],
