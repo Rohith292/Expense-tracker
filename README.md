@@ -17,7 +17,8 @@ A responsive, intuitive Expense Tracker built using **TailwindCSS**, **DaisyUI**
 
 ## 📊 Screenshot
 
-<img src="screenshots/dashboard.png" alt="Expense Tracker Dashboard" width="700"/>
+![Expense Tracker Dashboard](Images/Dashboard.png)
+
 
 The dashboard highlights:
 
