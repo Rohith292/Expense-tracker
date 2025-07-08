@@ -1,6 +1,6 @@
 # 🧾 Expense Tracker
 
-A sleek and responsive Expense Tracker web application built using **TailwindCSS**, **DaisyUI**, and vanilla JavaScript. Designed to help users manage their personal finances with clarity and elegance—track income, expenses, and visualize financial trends over time.
+A sleek and responsive Expense Tracker web application built using **TailwindCSS**, **DaisyUI**, and React.js . Designed to help users manage their personal finances with clarity and elegance—track income, expenses, and visualize financial trends over time.
 
 ---
 
