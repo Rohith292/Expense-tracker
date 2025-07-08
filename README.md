@@ -1,53 +1,66 @@
 # 🧾 Expense Tracker
 
-A responsive, intuitive Expense Tracker built using **TailwindCSS**, **DaisyUI**, and vanilla JavaScript. Designed for effortless personal finance management with clean dashboards and modular UI components.
+A sleek and responsive Expense Tracker web application built using **TailwindCSS**, **DaisyUI**, and vanilla JavaScript. Designed to help users manage their personal finances with clarity and elegance—track income, expenses, and visualize financial trends over time.
 
 ---
 
 ## 📌 Features
 
-- ✅ Add, view, and delete transactions
-- ✅ Calculate and display total balance, income, and expenses
-- ✅ Pie and bar charts for visual financial insights
-- ✅ Modular transaction cards with date and category
-- ✅ Persistent data via Local Storage
-- ✅ Fully responsive for desktop and mobile devices
+- ✅ Record, view, and delete transactions by category
+- ✅ Separate Income and Expense tracking panels
+- ✅ Dynamic calculation of total balance, income, and expenses
+- ✅ Pie and bar charts for financial breakdown (30 & 60-day views)
+- ✅ Responsive design for desktop and mobile users
+- ✅ Persistent data storage using Local Storage
 
 ---
 
-## 📊 Screenshot
+## 📊 Screenshots
 
-![Expense Tracker Dashboard](Images/Dashboard.png.png)
-![Expense Tracker Income](Images/Income.png.png)
-![Expense Tracker Expense](Images/Expense.png.png)
+### 💼 Dashboard Overview  
+<img src="Images/Dashboard.png.png" alt="Dashboard view" width="700"/>
 
+- Displays **total balance, income, and expense** with visual cards  
+- Transaction history grouped under Income and Expense blocks  
+- Charts for spending insights over time
 
-The dashboard highlights:
+---
 
-- 💸 **Total Balance**: ₹28,000
-- 🟢 **Income**: ₹42,000 &nbsp;&nbsp; 🔴 **Expense**: ₹14,000
-- 📋 **Recent Transactions**: Includes items like Rent, Food, Intern Payment, Dress, and Salary
-- 📈 **Financial Overview**: Charts reflect spending trends over 30 and 60 days
-- 🧱 UI powered by TailwindCSS and DaisyUI for clean component styling
+### 🟢 Income Page  
+<img src="Images/Expense.png.png" alt="Income page" width="700"/>
+
+- Shows all user-added **income entries** (e.g. Salary, Intern Payments)  
+- Includes **amount, date, category**, and delete button for each entry  
+- Green-themed for intuitive income distinction
+
+---
+
+### 🔴 Expense Page  
+<img src="Images/Rename.png.png" alt="Expense page" width="700"/>
+
+- Lists all **expense transactions** like Rent, Food, Clothing  
+- Displays **category, amount, and timestamp**  
+- Styled in red for quick identification of deductions
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: TailwindCSS, DaisyUI, JavaScript
-- **Design**: Inspired by Figma layouts
-- **State**: Managed using modular JS and Local Storage
-- **Deployment**: Render (API), Vercel (Frontend)
+| Frontend     | Utilities     | Deployment      |
+|--------------|---------------|-----------------|
+| TailwindCSS  | JavaScript    | Vercel (Frontend) |
+| DaisyUI      | Local Storage | Render (Backend API) |
+| Figma-Inspired Layout | Modular DOM Logic | -- |
 
 ---
 
 ## 🚀 Getting Started
 
 ```bash
-# Clone this repository
-git clone https://github.com/yourusername/expense-tracker.git
+# Clone the repository
+git clone https://github.com/Rohith292/Expense-tracker.git
 
-# Navigate to the project directory
-cd expense-tracker
+# Navigate to project
+cd Expense-tracker
 
-# Open index.html in your browser
+# Open index.html in your browser or serve locally
